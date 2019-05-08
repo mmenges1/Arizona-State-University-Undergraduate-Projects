@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/box.FBX</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/bunny.FBX</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/font.spritefont</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/Fresnel.fx</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/Helicopter.fbx</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/HelicopterTexture.png</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/sphere.FBX</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/teapot.FBX</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/Torus.FBX</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/skybox/cube.fbx</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/skybox/Helicopter.fbx</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/skybox/HelicopterTexture.png</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/skybox/hills_negx.bmp</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/skybox/hills_negy.bmp</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/skybox/hills_negz.bmp</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/skybox/hills_posx.bmp</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/skybox/hills_posy.bmp</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/skybox/hills_posz.bmp</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/skybox/Skybox.fx</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/Plane.FBX</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/CD.FBX</File>
+    <File>E:/CPI411TermProjectMakaylaMenges/CPI411 (2017)/TermProject/Content/Diffraction.fx</File>
+  </SourceFiles>
+</SourceFileCollection>

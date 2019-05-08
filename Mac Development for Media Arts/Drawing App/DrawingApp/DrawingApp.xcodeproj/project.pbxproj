@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F005BEC1BF2E36700F82DDD /* ASUEllipse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F005BEB1BF2E36700F82DDD /* ASUEllipse.m */; };
+		5CAEF3611BEA98B500E85118 /* ASUDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAEF3601BEA98B500E85118 /* ASUDrawing.m */; };
+		5CBBD3AC1BE7F66D006795BE /* ASUShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBBD3AB1BE7F66D006795BE /* ASUShape.m */; };
+		5CBBD3AF1BE7FB77006795BE /* ASURectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBBD3AE1BE7FB77006795BE /* ASURectangle.m */; };
+		5CE6B7F31BE1617F005172F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6B7F21BE1617F005172F3 /* AppDelegate.m */; };
+		5CE6B7F51BE1617F005172F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6B7F41BE1617F005172F3 /* main.m */; };
+		5CE6B7F71BE1617F005172F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6B7F61BE1617F005172F3 /* Images.xcassets */; };
+		5CE6B7FA1BE1617F005172F3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6B7F81BE1617F005172F3 /* MainMenu.xib */; };
+		5CE6B8061BE1617F005172F3 /* DrawingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6B8051BE1617F005172F3 /* DrawingAppTests.m */; };
+		5CE6B8111BE16228005172F3 /* ASUGraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6B8101BE16228005172F3 /* ASUGraphicsView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CE6B8001BE1617F005172F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CE6B7E41BE1617F005172F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CE6B7EB1BE1617F005172F3;
+			remoteInfo = DrawingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F005BEA1BF2E36700F82DDD /* ASUEllipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASUEllipse.h; sourceTree = "<group>"; };
+		2F005BEB1BF2E36700F82DDD /* ASUEllipse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASUEllipse.m; sourceTree = "<group>"; };
+		5CAEF35F1BEA98B500E85118 /* ASUDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASUDrawing.h; sourceTree = "<group>"; };
+		5CAEF3601BEA98B500E85118 /* ASUDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASUDrawing.m; sourceTree = "<group>"; };
+		5CBBD3AA1BE7F66D006795BE /* ASUShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASUShape.h; sourceTree = "<group>"; };
+		5CBBD3AB1BE7F66D006795BE /* ASUShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASUShape.m; sourceTree = "<group>"; };
+		5CBBD3AD1BE7FB77006795BE /* ASURectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASURectangle.h; sourceTree = "<group>"; };
+		5CBBD3AE1BE7FB77006795BE /* ASURectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASURectangle.m; sourceTree = "<group>"; };
+		5CE6B7EC1BE1617F005172F3 /* DrawingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE6B7F01BE1617F005172F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE6B7F11BE1617F005172F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CE6B7F21BE1617F005172F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CE6B7F41BE1617F005172F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CE6B7F61BE1617F005172F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CE6B7F91BE1617F005172F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5CE6B7FF1BE1617F005172F3 /* DrawingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE6B8041BE1617F005172F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE6B8051BE1617F005172F3 /* DrawingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingAppTests.m; sourceTree = "<group>"; };
+		5CE6B80F1BE16228005172F3 /* ASUGraphicsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASUGraphicsView.h; sourceTree = "<group>"; };
+		5CE6B8101BE16228005172F3 /* ASUGraphicsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASUGraphicsView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CE6B7E91BE1617F005172F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE6B7FC1BE1617F005172F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CE6B7E31BE1617F005172F3 = {
+			isa = PBXGroup;
+			children = (
+				5CE6B7EE1BE1617F005172F3 /* DrawingApp */,
+				5CE6B8021BE1617F005172F3 /* DrawingAppTests */,
+				5CE6B7ED1BE1617F005172F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CE6B7ED1BE1617F005172F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CE6B7EC1BE1617F005172F3 /* DrawingApp.app */,
+				5CE6B7FF1BE1617F005172F3 /* DrawingAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CE6B7EE1BE1617F005172F3 /* DrawingApp */ = {
+			isa = PBXGroup;
+			children = (
+				5CE6B7F11BE1617F005172F3 /* AppDelegate.h */,
+				5CE6B7F21BE1617F005172F3 /* AppDelegate.m */,
+				5CE6B7F61BE1617F005172F3 /* Images.xcassets */,
+				5CE6B7F81BE1617F005172F3 /* MainMenu.xib */,
+				5CE6B80F1BE16228005172F3 /* ASUGraphicsView.h */,
+				5CE6B8101BE16228005172F3 /* ASUGraphicsView.m */,
+				5CAEF35F1BEA98B500E85118 /* ASUDrawing.h */,
+				5CAEF3601BEA98B500E85118 /* ASUDrawing.m */,
+				5CBBD3AA1BE7F66D006795BE /* ASUShape.h */,
+				5CBBD3AB1BE7F66D006795BE /* ASUShape.m */,
+				5CBBD3AD1BE7FB77006795BE /* ASURectangle.h */,
+				5CBBD3AE1BE7FB77006795BE /* ASURectangle.m */,
+				2F005BEA1BF2E36700F82DDD /* ASUEllipse.h */,
+				2F005BEB1BF2E36700F82DDD /* ASUEllipse.m */,
+				5CE6B7EF1BE1617F005172F3 /* Supporting Files */,
+			);
+			path = DrawingApp;
+			sourceTree = "<group>";
+		};
+		5CE6B7EF1BE1617F005172F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CE6B7F01BE1617F005172F3 /* Info.plist */,
+				5CE6B7F41BE1617F005172F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CE6B8021BE1617F005172F3 /* DrawingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CE6B8051BE1617F005172F3 /* DrawingAppTests.m */,
+				5CE6B8031BE1617F005172F3 /* Supporting Files */,
+			);
+			path = DrawingAppTests;
+			sourceTree = "<group>";
+		};
+		5CE6B8031BE1617F005172F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CE6B8041BE1617F005172F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CE6B7EB1BE1617F005172F3 /* DrawingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE6B8091BE1617F005172F3 /* Build configuration list for PBXNativeTarget "DrawingApp" */;
+			buildPhases = (
+				5CE6B7E81BE1617F005172F3 /* Sources */,
+				5CE6B7E91BE1617F005172F3 /* Frameworks */,
+				5CE6B7EA1BE1617F005172F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingApp;
+			productName = DrawingApp;
+			productReference = 5CE6B7EC1BE1617F005172F3 /* DrawingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CE6B7FE1BE1617F005172F3 /* DrawingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE6B80C1BE1617F005172F3 /* Build configuration list for PBXNativeTarget "DrawingAppTests" */;
+			buildPhases = (
+				5CE6B7FB1BE1617F005172F3 /* Sources */,
+				5CE6B7FC1BE1617F005172F3 /* Frameworks */,
+				5CE6B7FD1BE1617F005172F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CE6B8011BE1617F005172F3 /* PBXTargetDependency */,
+			);
+			name = DrawingAppTests;
+			productName = DrawingAppTests;
+			productReference = 5CE6B7FF1BE1617F005172F3 /* DrawingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CE6B7E41BE1617F005172F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ASU;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ASU;
+				TargetAttributes = {
+					5CE6B7EB1BE1617F005172F3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5CE6B7FE1BE1617F005172F3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5CE6B7EB1BE1617F005172F3;
+					};
+				};
+			};
+			buildConfigurationList = 5CE6B7E71BE1617F005172F3 /* Build configuration list for PBXProject "DrawingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CE6B7E31BE1617F005172F3;
+			productRefGroup = 5CE6B7ED1BE1617F005172F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CE6B7EB1BE1617F005172F3 /* DrawingApp */,
+				5CE6B7FE1BE1617F005172F3 /* DrawingAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CE6B7EA1BE1617F005172F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE6B7F71BE1617F005172F3 /* Images.xcassets in Resources */,
+				5CE6B7FA1BE1617F005172F3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE6B7FD1BE1617F005172F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CE6B7E81BE1617F005172F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE6B8111BE16228005172F3 /* ASUGraphicsView.m in Sources */,
+				5CBBD3AF1BE7FB77006795BE /* ASURectangle.m in Sources */,
+				5CAEF3611BEA98B500E85118 /* ASUDrawing.m in Sources */,
+				5CE6B7F51BE1617F005172F3 /* main.m in Sources */,
+				5CE6B7F31BE1617F005172F3 /* AppDelegate.m in Sources */,
+				5CBBD3AC1BE7F66D006795BE /* ASUShape.m in Sources */,
+				2F005BEC1BF2E36700F82DDD /* ASUEllipse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE6B7FB1BE1617F005172F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE6B8061BE1617F005172F3 /* DrawingAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CE6B8011BE1617F005172F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CE6B7EB1BE1617F005172F3 /* DrawingApp */;
+			targetProxy = 5CE6B8001BE1617F005172F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CE6B7F81BE1617F005172F3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE6B7F91BE1617F005172F3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CE6B8071BE1617F005172F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CE6B8081BE1617F005172F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5CE6B80A1BE1617F005172F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrawingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CE6B80B1BE1617F005172F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrawingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CE6B80D1BE1617F005172F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawingApp.app/Contents/MacOS/DrawingApp";
+			};
+			name = Debug;
+		};
+		5CE6B80E1BE1617F005172F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawingApp.app/Contents/MacOS/DrawingApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CE6B7E71BE1617F005172F3 /* Build configuration list for PBXProject "DrawingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE6B8071BE1617F005172F3 /* Debug */,
+				5CE6B8081BE1617F005172F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE6B8091BE1617F005172F3 /* Build configuration list for PBXNativeTarget "DrawingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE6B80A1BE1617F005172F3 /* Debug */,
+				5CE6B80B1BE1617F005172F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE6B80C1BE1617F005172F3 /* Build configuration list for PBXNativeTarget "DrawingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE6B80D1BE1617F005172F3 /* Debug */,
+				5CE6B80E1BE1617F005172F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CE6B7E41BE1617F005172F3 /* Project object */;
+}
